@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courgette', cursive;
+}
+
+th,td{
+    border: 2px WhiteSmoke solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color : WhiteSmoke ;
+    background-color: rgb(211, 211, 211, 0.548) ;
+}
+
+th{
+    background-color :rgb(39, 39, 39);
+
+}
+td{
+    background-color: rgb(78, 78, 78) ;
+    
+}
+
+header{
+    background-color: WhiteSmoke;
+    color: black;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+
+}
+footer{
+    background-color: WhiteSmoke;
+    color: black;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+
+}
+main{
+
+    background-image: url("https://i.stack.imgur.com/NX7PC.jpg"); 
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+
+form{
+
+    float: left;
+    padding: 50px ;
+    margin-top: 70px;
+    background-color: rgb(211, 211, 211, 0.548) ;
+}
+
+input , button{
+    border-radius: 5px;
+    
+}
+
+table{
+    position: relative;
+    top : 70px;
+    padding: 50px ;
+    left: 100px;
+    background-color:  rgb(211, 211, 211, 0.548);
+}
+label{
+    color: black;
+    margin-left: 30%;
+}
